@@ -1,0 +1,8 @@
+name : hola a todos desde Action
+on : [push]
+jobs:
+saludra:
+runs-on:obunto-latest
+steps:
+-name: muestra mensaje hola mundo
+run: echo " hola mundo, desde el grupo primero 3 "
